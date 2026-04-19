@@ -1,38 +1,45 @@
+# Skill Share Campus
 
-TO RUN this----
+Skill Share Campus is a full-stack campus collaboration and marketplace platform where students can share skills, find paid opportunities, exchange study materials, and collaborate through real-time messaging. It combines a social campus hub with practical work tools such as application tracking, project and task management, and wallet/escrow features to help students learn, earn, and work together in one place.
 
-Follow these steps:
+## Demo
 
-```sh
-# Step 1: you need to have Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-# Step 2: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+[![Watch the demo](https://img.youtube.com/vi/jBf_TcsDPIE/maxresdefault.jpg)](https://youtu.be/jBf_TcsDPIE)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Click the image above to watch the demo video**
 
-# Step 3: Install the necessary dependencies.
-npm i
+Or watch directly: [https://youtu.be/jBf_TcsDPIE](https://youtu.be/jBf_TcsDPIE)
 
-# Step 4: Create the database with mysql with the schemas
+## Key Features
 
-# Step 5: Start the development server with auto-reloading and an instant preview.
-node server.js
-```
+- Campus marketplace for skills, jobs, and academic materials
+- Campus hub with posts, discussions, and polls
+- Real-time direct and group messaging
+- My Work dashboard for applications, invoices, and projects
+- Project collaboration with task and time management
+- Wallet tools including transactions, savings goals, and escrow flows
 
+## Tech Stack
 
-This project is built with:
+- React + TypeScript + Vite
+- Tailwind CSS + shadcn/ui
+- Express + MySQL
+- Socket.IO for real-time communication
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-- Mysql
+## Setup Instructions
 
-Our platform boosts campus productivity by offering project management tools and seamless communication and campus hub — all within one system!
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/skill-share-campus.git
 
-## 🎥 Demo Video
+# Install dependencies
+npm install
 
-[![Watch the video](https://img.youtube.com/vi/jBf_TcsDPIE/0.jpg)](https://youtu.be/jBf_TcsDPIE)
+# Set up environment variables
+cp .env.example .env
 
+# Run database migrations
+npm run migrate
+
+# Start development server
+npm run dev
