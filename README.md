@@ -1,4 +1,4 @@
-# Skill Share Campus
+# Skill Share Platform
 
 Skill Share Campus is a full-stack campus collaboration and marketplace platform where students can share skills, find paid opportunities, exchange study materials, and collaborate through real-time messaging. It combines a social campus hub with practical work tools such as application tracking, project and task management, and wallet/escrow features to help students learn, earn, and work together in one place.
 
